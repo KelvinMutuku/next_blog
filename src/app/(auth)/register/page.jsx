@@ -1,5 +1,9 @@
+"use client"  // Fixes this error: "You're importing a component that needs `useActionState`. This React hook only works in a client component. To fix, mark the file (or its parent) with the `"use client"` directive.
+import {useActionState} from 'react'
 import Link from "next/link";
+import {register} from '@/actions/auth';
 export default function Register() {
+    const [state, action, isPending] = useActionState(register, undefined);
     return (
         <div className="container w-1/2">
             <h1 className="title">Register</h1>
