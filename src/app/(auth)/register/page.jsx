@@ -21,7 +21,7 @@ export default function Register() {
                     <input type="password" name="confirmPassword"/>
                 </div>
                 <div className="flex items-end gap-4">
-                    <button className="btn-primary">Register</button>
+                    <button  disabled={isPending} className="btn-primary">{isPending ? "Loading..." : "Register"}</button>
                     <Link href="/" className="text-link">or login here</Link>
                 </div>
             </form>
