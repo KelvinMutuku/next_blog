@@ -4,8 +4,8 @@ import { getCollection } from "@/lib/db";
 import getAuthUser from "@/lib/getAuthUser";
 import { BlogPostSchema } from "@/lib/rules";
 import { ObjectId } from "mongodb";
-import { redirect } from "next/navigation";
 import { revalidatePath } from "next/cache";
+import { redirect } from "next/navigation";
 
 export async function createPost(state, formData) {
   // Check is user is signed in
