@@ -2,7 +2,7 @@
 
 A complete blog application built with Next.js 15 (App Router), Server Actions, and MongoDB. This project includes full user authentication, session management, and complete CRUD (Create, Read, Update, Delete) functionality for posts.
 
-**Live Demo:** [**https://next-blog-ten-alpha.vercel.app/**](https://next-blog-ten-alpha.vercel.app/)
+**Live Demo:** [**https://next-blog-nu-sand-84.vercel.app/**](https://next-blog-nu-sand-84.vercel.app/)
 
 ## Features
 
