@@ -1,4 +1,4 @@
-import "server-only"
+// import "server-only"
 import { jwtVerify, SignJWT } from "jose";
 import { cookies } from "next/headers";
 const secretKey = process.env.SESSION_SECRET
